@@ -1,0 +1,26 @@
+html {
+	height: 600px;
+}
+body {
+	height: 100%;
+	padding: 0;
+	margin-top: 0;
+}
+
+#map-canvas {
+	height: 400px;
+	width: 1000px;
+	margin-left: 200px;
+	margin-top: 100px;
+}
+
+h1 {
+    font-family: 'Bungee Shade';
+    font-size: 70px; 
+    text-shadow: 3px 3px 3px rgba(192, 192, 192, 1);
+    margin-top: 80px;
+    margin-bottom: 0;
+    color: #669900;
+    letter-spacing: 15px;
+    text-align: center;
+}

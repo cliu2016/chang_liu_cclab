@@ -1,0 +1,20 @@
+
+
+#sheep {
+
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 180px;
+	width: 400px;
+	height: 254px;
+	background: url('w2_image/sheep.png');
+	background-size:100% auto;
+	opacity: 0;
+	z-index:1;
+}
+
+audio {
+    display: none;
+}
+
