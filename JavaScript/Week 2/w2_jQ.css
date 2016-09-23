@@ -1,4 +1,11 @@
 
+body {
+		background-image: url(w2_image/frame.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+}
+
 
 #sheep {
 

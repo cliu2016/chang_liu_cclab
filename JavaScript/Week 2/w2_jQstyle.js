@@ -1,4 +1,7 @@
-$("#sheep").hover(function() {
+
+function init() {
+
+	$("#sheep").hover(function() {
 
         $(this).animate({opacity: 1.5}, 2000);
 
@@ -8,9 +11,12 @@ $("#sheep").hover(function() {
 
     });
 
-// add sound
-    $('img.play_media').click(function(event){
-      $("#resource_audio")
-        .attr("src",this.id)
-        .get(0).play();
-    });
+	$('#sheep').click(function(){
+		$('#wrap').append('<embed id="embed_player" src="w2_sound/sheeponly.mp3" autostart="true" hidden="true"></embed>');
+	});
+
+}
+
+ $(document).ready(function(){
+ 	init();
+ })
